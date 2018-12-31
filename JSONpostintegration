@@ -1,0 +1,15 @@
+//JSON post event named "Database" that send to a url. Created in the particle console under 'integrations' tab
+
+
+{
+  "event": "Database",
+  "url": "PUT YOUR URL HERE WHERE THE PHP RESIDES TO DECODE JSON",
+  "requestType": "POST",
+  "mydevices": true,
+  "noDefaults": false,
+  "coreid": "{{{PARTICLE_DEVICE_ID}}}",
+  "totalizer": "{{waterTotal}}",
+  "flowRate": "{{waterFlowRate}}"
+}
+
+        
