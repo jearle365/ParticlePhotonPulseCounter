@@ -1,6 +1,4 @@
 //JSON post event named "Database" that send to a url. Created in the particle console under 'integrations' tab
-
-
 {
   "event": "Database",
   "url": "PUT YOUR URL HERE WHERE THE PHP RESIDES TO DECODE JSON",
